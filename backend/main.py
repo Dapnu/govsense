@@ -32,8 +32,8 @@ if not GEMINI_API_KEY:
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Models
-text_model = genai.GenerativeModel('gemini-1.5-flash-latest')
-vision_model = genai.GenerativeModel('gemini-1.5-flash-latest')
+text_model = genai.GenerativeModel('gemini-2.0-flash')
+vision_model = genai.GenerativeModel('gemini-2.0-flash')
 
 
 class TextInput(BaseModel):
